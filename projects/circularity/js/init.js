@@ -20,13 +20,21 @@ var init = function (window) {
         ////////////////////////////////////////////////////////////
         
         // TODO 1 : Declare and initialize our variables
-
+         // Code to draw a circle
+         circle = draw.randomCircleInArea(canvas, true, true, "#999", 2);
+         physikz.addRandomVelocity(circle, canvas);
+         view.addChild(circle);
+         circles.push(circle);
 
         // TODO 2 : Create a function that draws a circle 
-        
+        nameOfFunction(drawCircle);
 
         // TODO 3 / 7 : Call the drawCircle() function 
-
+        nameOfFunction(drawCircle);
+        nameOfFunction(drawCircle);
+        nameOfFunction(drawCircle);
+        nameOfFunction(drawCircle);
+        nameOfFunction(drawCircle);
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -39,7 +47,10 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the circle's position //
-
+            myArray[0]; 
+            myArray[1]; 
+            myArray[2]; 
+            myArray[4]; 
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
            
