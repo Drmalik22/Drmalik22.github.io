@@ -57,9 +57,9 @@ $(function () {
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-    createCollectable("grace", 60, 17, )
-    createCollectable("max", 45, 10, )
-    createCollectable("diamond", 70, 25, )
+    createCollectable("grace", 760, 560, )
+    createCollectable("max", 550, 310, )
+    createCollectable("diamond", 695, 205, )
 
     // TODO 3
     // Create cannons
